@@ -14,7 +14,8 @@ import traceback
 import subprocess as sb
 
 from lib.customprints.ansi_colors import sg_colors
-from modules import yaml
+# from modules import yaml
+import yaml
 
 from scripts.batch_snippets.connected_duplicate import main as _dupli
 from scripts.batch_snippets.matte_cleaner import main as _cleaner

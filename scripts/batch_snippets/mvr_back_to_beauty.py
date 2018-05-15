@@ -13,13 +13,13 @@ def main(shotname, elementname):
 
     from lib.customprints.ansi_colors import sg_colors
 
-    #global yaml
-    #import yaml
-    from modules import yaml
+    global yaml
+    import yaml
+    # from modules import yaml
 
-    #global clique
-    #import clique
-    from modules import clique
+    global clique
+    import clique
+    # from modules import clique
 
     shot_name = shotname
     element_name = elementname
