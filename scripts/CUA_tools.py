@@ -14,8 +14,8 @@ from scripts.batch_selections.batch_selections_UI import SelectionsWidget
 import scripts.batch_snippets.mvr_back_to_beauty as _backtobeauty
 from scripts.batch_snippets import test_print2 as _testprint
 
-from scripts.batch_snippets.input_dialog import InputDialogBox
-#from scripts.batch_snippets.mvr_back_to_beauty_Layout import DialogShot
+from scripts.batch_snippets.btb_input_dialog import InputDialogBox
+
 
 print sg_colors.grey3 + '-' * 80 + sg_colors.endc
 print sg_colors.blue2 + "--- From CUA_tools ---" + sg_colors.endc
