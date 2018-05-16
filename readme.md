@@ -6,6 +6,10 @@ You need the DL_PYTHON_PATH to be added to your environment, by either:
 - Sourcing the text file named Paths_to_source.txt (in /lib) in the terminal from which you will then start Flame.
 - Add the path to your .bash_profile (on mac) and then source it in the terminal from which you will start Flame.
 
+There is still an error message about yaml but the few scripts in here still work.
+
+Todo: Figure out a better way to import clique and yaml (modules)
+
 ----------
 2018/05/14
 
