@@ -11,7 +11,7 @@ Note:
 There is still an error message about yaml but the few scripts in here still work.
 
 Todo: 
-Figure out a better way to import clique and yaml (modules)
+Figure out a better way to import clique and yaml (modules).
 
 ----------
 2018/05/14
