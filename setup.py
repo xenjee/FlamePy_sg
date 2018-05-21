@@ -13,7 +13,7 @@ with open('license') as f:
 
 setup(
     name='flamepy_sg',
-    version='0.0.0.14',
+    version='0.0.0.17',
     description='Flame python tools',
     long_description=readme,
     author='Stefan Gaillot',
