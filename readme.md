@@ -12,7 +12,9 @@ pip install flamepy_sg
 force version update with: 
 pip install --upgrade --force-reinstall flamepy_sg
 
-Once the package is intalled, source the appropriate bash_profile_... file (found in /for_install) and start Flame from the same terminal
+Once the package is intalled, source the appropriate bash_profile_... file (found in /for_install) and start Flame from the same terminal.
+But first, once the file located, modify the path to be sourced according to your system and where you installed the package.
+The target folder/module is 'flame_start' which should be right next to the 'flamepy_sg' folder/module.
 
 
 -
