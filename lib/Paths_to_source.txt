@@ -1,2 +1,0 @@
-export DL_PYTHON_HOOK_PATH=/Users/stefan/XenDrive/___VFX/FLAME_STUFF/FLAME_DEV/PYTHON/flame_python_projects/FlamePy_sg
-export DL_DEBUG_PYTHON_HOOKS=1

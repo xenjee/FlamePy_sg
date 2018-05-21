@@ -1,6 +1,0 @@
-- data: [comp1]
-  name: selection_01
-- data: [mux1, mux2, mux4]
-  name: selection_02
-- data: [Source02, Source01]
-  name: selection_03

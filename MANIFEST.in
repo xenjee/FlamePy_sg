@@ -1,0 +1,11 @@
+include LICENSE
+include readme.md
+include requirements.txt
+
+include for_install/bash_profile_Linux_a52
+include for_install/bash_profile_mac_stef
+include for_install/How_to_install_and_start.txt
+
+include scripts/text_files/*.txt
+include scripts/text_files/*.rtf
+
