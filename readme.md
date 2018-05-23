@@ -12,11 +12,12 @@ How to install:
 - Source a path in your env = desired filepath for the 'to be created' flamepy_triggers folder.
 - run flamepy_install.py in the terminal, giving your path to the 'dl_python_path' parent folder as an argument:	
 python /path/to/my/flamepy_install.py /path/to/parent_of_dl_python_path_folder
-> That's it, start Flame from a terminal within this env.
+
+That's it, you should be able to start Flame from a terminal within this env.
 
 Todo:
-Somehow extract the DL_PYTHON_PATH from sys and use that as an argument to run the install script. 
-Modify the installer as needed.
+- Somehow extract the DL_PYTHON_PATH from sys and use that as an argument to run the install script. 
+- Modify the installer as needed.
 
 
 
