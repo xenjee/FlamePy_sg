@@ -1,6 +1,23 @@
 flamepy_sg Module Repository
 ----------
 
+-
+2018/05/22
+
+Major update again:
+- No more pip install, useless for this project. Also too exposed for non full open source.
+- There is now an install script that will generate trigger .py scripts meant to expose just what we want to Flame (to dl_python_path)
+
+How to install:
+- Source a path in your env = desired filepath for the 'to be created' flamepy_triggers folder.
+- run flamepy_install.py in the terminal, giving your path to the 'dl_python_path' parent folder as an argument:	
+python /path/to/my/flamepy_install.py /path/to/parent_of_dl_python_path_folder
+> That's it, start Flame from a terminal within this env.
+
+Todo:
+Somehow extract the DL_PYTHON_PATH from sys and use that as an argument to run the install script. 
+Modify the installer as needed.
+
 
 
 -
