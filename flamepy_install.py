@@ -7,13 +7,13 @@ if __name__ == '__main__':
 
     absolute_path = os.path.realpath(__file__)
     relative_path = '/'.join(absolute_path.split('/')[0:-3])
-    #flamepy_triggers_path = '/'.join(absolute_path.split('/')[0:-2])
+    # flamepy_triggers_path = '/'.join(absolute_path.split('/')[0:-2])
 
 # ######################################################## PATHS
     print ''
     print '-' * 80
-    print "This installer script:          ", script
-    print "DL_PTYTHON_PATH:                ", dl_python_path
+    print "This installer script:    ", script
+    print "DL_PTYTHON_PATH:          ", dl_python_path
     print ''
     print "Note: DL_PTYTHON_PATH filepath is passed as an argument in the command line:"
     print "python /path/to/my/flamepy_install.py /path/to/dl_python_path_folder"
