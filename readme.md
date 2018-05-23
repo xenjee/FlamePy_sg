@@ -4,7 +4,7 @@ flamepy_sg Module Repository
 -
 2018/05/22
 
-Major update again:
+Major update:
 - No more pip install, useless for this project. Also too exposed for non full open source.
 - There is now an install script that will generate trigger .py scripts meant to expose just what we want to Flame (to dl_python_path)
 
