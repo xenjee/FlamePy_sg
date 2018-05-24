@@ -1,4 +1,4 @@
-flamepy_sg > python custom tools/hooks for Flame
+flamepy_sg > python custom tools/hooks for Flame.
 ----------
 
 -
