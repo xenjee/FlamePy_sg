@@ -6,12 +6,23 @@ flamepy_sg Module Repository
 
 Major update:
 - No more pip install, useless for this project. Also too exposed for non full open source.
-- There is now an install script that will generate trigger .py scripts meant to expose just what we want to Flame (to dl_python_path)
+- There is now an install script that will generate the flame_trigger.py scripts meant to expose just what we want to Flame (to dl_python_path)
+
+The idea is that the flame tools package might contain files that we don't want Flame to even bother looking at, like yaml or txt files.
+It comes from the fact that Flame seems to look at every single file under it's DL_PYTHON_PATH (recursively). Then modules like yaml might return error messages (even if things work anyway) ... and we don't want that.
+
+So instead of Flame looking at the whole package, we only expose the trigger scrips, which then import appropriate top level hooks like CustomUIactions (CUA), export hooks. ...
+
+It doesn't matter where we put the original flamepy_sg package, as long as we run flamepy_install.py giving the right path for flame hooks.
+
+Running flamepy_install.py from a terminal/shell (giving the DL_PYTHON_PATH filepath as an argument) will create the flamepy_triggers folder and all needed flame_trigger_... scripts.
+
 
 How to install:
-- Source a path in your env = desired filepath for the 'to be created' flamepy_triggers folder.
-- run flamepy_install.py in the terminal, giving your path to the 'dl_python_path' parent folder as an argument:	
-python /path/to/my/flamepy_install.py /path/to/parent_of_dl_python_path_folder
+- Do NOT put the package where Flame hooks are, that would again expose files we don't want to expose. Save it anywhere else and run the install script.
+- You can either use the location set as a pre-existing entry in the ~/.bash_profile, or temporary source a file containing your desired $PATH. 
+- Once you've set that match, run flamepy_install.py in the terminal, giving your path to the 'dl_python_path' target folder as an argument:	
+python /path/to/flamepy_install.py /path/to/dl_python_path_folder
 
 That's it, you should be able to start Flame from a terminal within this env.
 
